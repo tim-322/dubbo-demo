@@ -5,9 +5,9 @@ dubbo:
   protocol:
     port: 20800
   registry:
-    address: zookeeper://47.115.207.7:2181
+    address: zookeeper://localhost:2181
     username: root
-    password: ilovetimhooper
+    password: 123456
   scan:
     base-packages: com.hooper.dubbo.service
   provider:
